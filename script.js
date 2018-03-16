@@ -23,7 +23,7 @@ function listItems () {
     Houston = new vacationPlanner("Houston",4,1900,false);
     LA = new vacationPlanner("Los Angeles",3,500,true);
     NY = new vacationPlanner("New York",5,2900,false);
-
+//
     var vacations = [Seattle,Houston,LA,NY];
 
     for(var i = 0; i < vacations.length; i++){
