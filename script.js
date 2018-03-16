@@ -15,7 +15,7 @@ function listItems () {
         };
         this.totalCost = this.calculateTotalCost();
         this.printInfo = function() {
-            console.log("Your vacation to " + this.city + " will cost "+ this.totalCost);
+            console.log("Your vacation to " + this.city + " will cost $"+ this.totalCost);
         }
     };
 
